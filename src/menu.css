@@ -1,0 +1,23 @@
+Button {
+    -fx-background-image: url(buttonname.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 672 200;
+    -fx-min-width: 672;
+    -fx-min-height: 200;
+}
+
+Label {
+    -fx-font-size: 160;
+    -fx-background-image: url(mainname.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 1287 440;
+    -fx-min-width: 1287;
+    -fx-min-height: 440;
+    -fx-alignment: center;
+}
+
+#mainVBox {
+    -fx-background-image: url(littledarkcorners.jpg);
+}

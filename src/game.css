@@ -1,0 +1,31 @@
+FlowPane {
+    -fx-alignment: center;
+    -fx-hgap: 10;
+}
+
+TextField {
+    -fx-pref-column-count: 8;
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 30;
+    -fx-background-color: rgb(255,255,255,0.6);
+    -fx-background-radius: 20;
+}
+
+Label {
+    -fx-font-size: 50;
+}
+
+StackPane {
+    -fx-background-image: url(littledarkcorners.jpg);
+}
+
+#bButton {
+    -fx-alignment: center;
+    -fx-background-insets: 0px;
+    -fx-background-image: url(gamename.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 1397 700;
+    -fx-min-width: 1397;
+    -fx-min-height: 700;
+}

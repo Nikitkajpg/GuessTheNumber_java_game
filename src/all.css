@@ -1,0 +1,19 @@
+Button:hover {
+    -fx-text-fill: chocolate;
+}
+
+Button {
+    -fx-font-family: "Monotype Corsiva";
+    -fx-background-color: transparent;
+    -fx-background-insets: 0px;
+    -fx-cursor: hand;
+    -fx-font-size: 50;
+}
+
+Label {
+    -fx-font-family: "Monotype Corsiva";
+}
+
+VBox {
+    -fx-alignment: center;
+}
