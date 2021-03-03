@@ -7,8 +7,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class GameLayout {
-    String correctNumber, moreNumber, lessNumber;
-
     Label fromLabel, toLabel, enterNumberLabel, label;
     TextField fromTF, toTF, enterTF;
     Button guessButton, backButton, goButton, backgroundButton;
@@ -17,10 +15,6 @@ public class GameLayout {
     StackPane stackPane;
 
     public GameLayout(Stage stage) {
-        correctNumber = "Правильно!";
-        moreNumber = "Неправильно! Ведите большее число";
-        lessNumber = "Неправильно! Ведите меньшее число";
-
         fromLabel = new Label("Введите интервал: от");
         toLabel = new Label("до");
         enterNumberLabel = new Label("Загаданное число:");
@@ -54,7 +48,7 @@ public class GameLayout {
                 enterTF.clear();
                 label.setText("");
             } else {
-                showDialog();
+                label.setText("Введите число меньше миллиарда");
             }
         });
         backButton.setOnAction(event -> {
@@ -66,10 +60,6 @@ public class GameLayout {
             disFirstPart(false);
             disSecondPart(true);
         });
-    }
-
-    private void showDialog() {
-        label.setText("Введите число меньше миллиарда");
     }
 
     private void logic() {
@@ -100,7 +90,7 @@ public class GameLayout {
                     disSecondPart(true);
                 }
             } else {
-                showDialog();
+                label.setText("Введите число меньше миллиарда");
             }
         });
     }

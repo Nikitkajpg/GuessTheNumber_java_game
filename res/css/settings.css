@@ -1,0 +1,12 @@
+VBox {
+    -fx-background-image: url(/img/littledarkcorners.jpg);
+}
+
+Button {
+    -fx-background-image: url(/img/buttonname.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 672 200;
+    -fx-min-width: 672;
+    -fx-min-height: 200;
+}
