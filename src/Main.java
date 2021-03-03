@@ -19,10 +19,10 @@ public class Main extends Application {
         gameLayout = new GameLayout(primaryStage);
         scene = new Scene(menuLayout.getLayout());
 
-        scene.getStylesheets().add(getClass().getResource("all.css").toString());
+        scene.getStylesheets().add(getClass().getResource("css/all.css").toString());
         primaryStage.setTitle("Угадай число!");
         primaryStage.setScene(scene);
-        primaryStage.getIcons().add(new Image("four.jpg"));
+        primaryStage.getIcons().add(new Image("img/four.jpg"));
         primaryStage.setResizable(false);
         primaryStage.setFullScreen(true);
         primaryStage.setFullScreenExitHint("");

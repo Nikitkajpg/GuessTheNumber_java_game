@@ -17,7 +17,7 @@ public class MenuLayout {
         mainVBox = new VBox(nameLabel, addVBox);
         mainVBox.setId("mainVBox");
 
-        mainVBox.getStylesheets().add(getClass().getResource("menu.css").toString());
+        mainVBox.getStylesheets().add(getClass().getResource("css/menu.css").toString());
 
         newGameButton.setOnAction(event -> stage.getScene().setRoot(Main.gameLayout.getLayout()));
         exitButton.setOnAction(event -> System.exit(0));

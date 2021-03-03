@@ -42,7 +42,7 @@ public class GameLayout {
         vBox = new VBox(topFlowPane, goButton, centerFlowPane, label, backButton);
 
         stackPane = new StackPane(backgroundButton, vBox);
-        stackPane.getStylesheets().add(getClass().getResource("game.css").toString());
+        stackPane.getStylesheets().add(getClass().getResource("css/game.css").toString());
 
         disSecondPart(true);
 

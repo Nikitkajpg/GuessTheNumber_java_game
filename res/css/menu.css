@@ -1,5 +1,5 @@
 Button {
-    -fx-background-image: url(buttonname.png);
+    -fx-background-image: url(/img/buttonname.png);
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: 672 200;
@@ -9,7 +9,7 @@ Button {
 
 Label {
     -fx-font-size: 160;
-    -fx-background-image: url(mainname.png);
+    -fx-background-image: url(/img/mainname.png);
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: 1287 440;
@@ -19,5 +19,5 @@ Label {
 }
 
 #mainVBox {
-    -fx-background-image: url(littledarkcorners.jpg);
+    -fx-background-image: url(/img/littledarkcorners.jpg);
 }
